@@ -1,4 +1,4 @@
-//bir yapılacak işler nesnesi oluşturur ve eylemlerini yönetir
+
 import React, { useState } from "react";
 import "../css/Todo.css";
 import { MdClear } from "@react-icons/all-files/md/MdClear/";
