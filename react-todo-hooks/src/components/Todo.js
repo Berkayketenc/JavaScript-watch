@@ -5,7 +5,7 @@ import { MdClear } from "@react-icons/all-files/md/MdClear/";
 import { MdCreate } from "@react-icons/all-files/md/MdCreate/";
 import { MdDone  } from "@react-icons/all-files/md/MdDone/";
 
-function Todo({ todo, toggleCheckbox, deleteTodo, updateTodo }) {
+function Todo({ todo, toggleCheckbox, deleteTodo, updateTodo , }) {
   function handleCheckboxClick() {
     toggleCheckbox(todo.id);
   }
@@ -16,6 +16,8 @@ function Todo({ todo, toggleCheckbox, deleteTodo, updateTodo }) {
   function seetEditable() {
     setEditable(true);
   }
+
+  
   const [editable, setEditable] = useState(false); //editleyebilmek için oluşturuldu
   const [task, setTask] = useState(todo.task); //edit input değeri için oluşturuldu
 

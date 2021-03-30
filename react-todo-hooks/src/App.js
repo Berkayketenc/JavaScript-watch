@@ -41,8 +41,7 @@ function toggleCheckbox(id){
     function deleteTodo(id){
 
       setTodos(todos.filter(todo => todo.id !== id));
-
-
+       
 
     }
 
@@ -69,6 +68,28 @@ function toggleCheckbox(id){
     
     }
 
+    function allDelete(){
+
+      
+      const newTodos = todos.filter(todo=>{
+
+
+        return todo.completed === false
+
+        
+
+
+      })
+      setTodos(newTodos)
+
+     
+      
+
+    
+      
+
+    }
+
 
 
 
@@ -81,7 +102,7 @@ function toggleCheckbox(id){
       <header className="App-header">
        <p>REACT TO DO LIST</p>
        <TodoForm todoAdd={todoAdd}/>
-       <TodoList todos={todos} toggleCheckbox={toggleCheckbox} deleteTodo={deleteTodo} updateTodo={updateTodo}/>
+       <TodoList todos={todos} toggleCheckbox={toggleCheckbox} deleteTodo={deleteTodo} updateTodo={updateTodo} allDelete={allDelete}/>
       </header>
     </div>
   );

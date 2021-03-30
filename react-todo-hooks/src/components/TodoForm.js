@@ -33,13 +33,27 @@ function TodoForm({todoAdd}) {
     }
   }
   
+  
 
   return (
     <form onSubmit={handleSubmit}>
       <input className="input" placeholder="" name="task" type="text" value={todo.task} onChange={handleInputChange} />
+        
+        {
 
-      <button className="addbutton" type="submit"><MdAddCircleOutline /></button>
+          todo.task.length > 2 ?
+
+         (<button className="addbutton" type="submit" ><MdAddCircleOutline /></button> )
+
+         : 
+
+         (<button className="addbutton" type="submit"></button>)
+
+        }
+        
+      
     </form>
+    
   );
 }
 
