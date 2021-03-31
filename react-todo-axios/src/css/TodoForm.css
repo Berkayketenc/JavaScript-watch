@@ -1,0 +1,29 @@
+.addbutton{
+
+    font-size: x-large;
+    border: none;
+    border-style: none;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: -35px;
+    
+}
+
+
+.input{
+
+    height: 20px;
+    width: 400px;
+    font-size: medium;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-bottom: 2px solid black;
+    color:black
+    
+
+
+
+}

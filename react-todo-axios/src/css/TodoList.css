@@ -1,0 +1,27 @@
+.deleteallbutton {
+  margin-left: -44px;
+  margin-top: 18px;
+  padding: 2px;
+  height: 35px;
+  width: 150px;
+  background-color: transparent;
+  border-radius: 16px;
+  border-style: solid;
+  color: black;
+  border-color: black;
+  cursor: pointer;
+}
+.deleteallbutton:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+
+}
+
+hr{
+
+    margin-top:20px;
+    margin-left: -44px;
+    background-color: black;
+    border-style: solid;
+}

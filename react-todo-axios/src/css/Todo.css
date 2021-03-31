@@ -1,0 +1,71 @@
+li {
+  color: black;
+  font-size: medium;
+  list-style: none;
+  border-style: solid;
+  border: 2px solid black;
+  padding: 12px;
+  border-radius: 20px;
+  /* height: 2vh; */
+  /* height: 25px;
+  width: 300px; */
+  min-width: 300px;
+  max-height: 30px;
+  
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.checkbox {
+  cursor: pointer;
+  font-size: x-large;
+  background-color: black;
+}
+
+input {
+  outline: 0;
+}
+
+.delete {
+  font-size: large;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.edit {
+  font-size: large;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  outline: 0;
+}
+
+p {
+  font-size: large;
+}
+
+.update{
+    font-size: large;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+
+}
+.todoedit{
+    
+    border: none;
+    border-bottom: 2px solid black;
+    color:black
+    
+
+
+}
+
